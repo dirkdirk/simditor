@@ -5,12 +5,12 @@
   "keywords": "editor simditor",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mycolorway/simditor.git"
+    "url": "git@github.com:dirkdirk/simditor.git"
   },
-  "author": "farthinker <farthinker@gmail.com>",
+  "author": "dirkdirk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mycolorway/simditor/issues"
+    "url": "https://github.com/dirkdirk/simditor/issues"
   },
   "scripts": {
     "test": "grunt test --verbose"
