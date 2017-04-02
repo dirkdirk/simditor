@@ -1,13 +1,15 @@
 ### Introduction
 
-This fork allows for a custom `id` on which to hang the floating Simditor toolbar.
+This fork:
+1. Comments out all code for the codeLanguages popover.
+2. Allows for a custom `id` on which to hang the floating Simditor toolbar.
 
-Edit line 1933 of `lib/simditor.js`:
+  Edit line 1933 of `lib/simditor.js`:
 
-```javascript
-// $(window).on('scroll.simditor-' + this.editor.id, (function(_this) {
-$('#simditor-float').on('scroll.simditor-' + this.editor.id, (function(_this) {
-```
+  ```javascript
+  // $(window).on('scroll.simditor-' + this.editor.id, (function(_this) {
+  $('#simditor-float').on('scroll.simditor-' + this.editor.id,   (function(_this) {
+  ```
 
 ### Resources
 
