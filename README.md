@@ -1,17 +1,19 @@
-[![Build Status](https://circleci.com/gh/mycolorway/simditor.png?circle-token=d1e5efa8fbb4ca55af41cb2decc1c7ea40974e7d)](https://circleci.com/gh/mycolorway/simditor)
+### Introduction
 
-Simditor is a browser-based WYSIWYG text editor.
+This fork allows for a custom `id` on which to hang the floating Simditor toolbar.
 
-It is used by [Tower](http://tower.im) -- a popular project management web application.
+Edit line 1933 of `lib/simditor.js`:
 
-Supported Browsers: IE10+、Chrome、Firefox、Safari.
-* [Download Zip](https://github.com/mycolorway/simditor/releases)
-* Install with npm: $ npm install simditor</li>
-* Install with bower: $ bower install simditor</li>
+```javascript
+// $(window).on('scroll.simditor-' + this.editor.id, (function(_this) {
+$('#simditor-float').on('scroll.simditor-' + this.editor.id, (function(_this) {
+```
 
-Demo and docs can be found [here](http://simditor.tower.im/).
+### Resources
 
+[Ember addon for Simditor on Github](https://github.com/wecatch/ember-cli-simditor)
 
-### IMPORTANT NOTICE
+[Simditor on Github](https://github.com/mycolorway/simditor)
 
-If you want to submit issues, please make sure you can reproduce the issue and please attach enough debug information(OS, browser, Simditor version, error message, steps to reproduce the issue or a live demo), or I'll probably close the issue directly :(
+[Simditor docs and demo](http://simditor.tower.im/)
+
