@@ -178,7 +178,7 @@
   background: transparent;
 }
 .simditor .simditor-wrapper.toolbar-floating .simditor-toolbar {
-  position: fixed;
+  position: fixed !important;
   top: 0;
   z-index: 10;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
@@ -229,7 +229,7 @@
   cursor: col-resize;
 }
 .simditor .simditor-body pre {
-  /*min-height: 28px;*/
+  /*min-height: 28px; Dirk edited  Dirk edited */
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   word-wrap: break-word !important;
@@ -588,7 +588,7 @@
 
 .simditor .simditor-body, .editor-style {
   font-size: 16px;
-  font-family: arial, sans-serif;
+  /*font-family: arial, sans-serif; Dirk edited */
   line-height: 1.6;
   color: #333;
   outline: none;
@@ -616,7 +616,8 @@
 }
 .simditor .simditor-body h1, .simditor .simditor-body h2, .simditor .simditor-body h3, .simditor .simditor-body h4, .simditor .simditor-body h5, .simditor .simditor-body h6, .editor-style h1, .editor-style h2, .editor-style h3, .editor-style h4, .editor-style h5, .editor-style h6 {
   font-weight: normal;
-  margin: 40px 0 20px;
+  /*margin: 40px 0 20px; Dirk edited */
+  margin: 0;
   color: #000000;
 }
 .simditor .simditor-body h1, .editor-style h1 {
@@ -639,7 +640,8 @@
 }
 .simditor .simditor-body p, .simditor .simditor-body div, .editor-style p, .editor-style div {
   word-wrap: break-word;
-  margin: 0 0 15px 0;
+  /*margin: 0 0 15px 0; Dirk edited */
+  margin: 0;
   color: #333;
   word-wrap: break-word;
 }
@@ -657,7 +659,8 @@
 }
 .simditor .simditor-body ul, .simditor .simditor-body ol, .editor-style ul, .editor-style ol {
   list-style: disc outside none;
-  margin: 15px 0;
+  /*margin: 15px 0; Dirk edited */
+  margin: 0;
   padding: 0 0 0 40px;
   line-height: 1.6;
 }
