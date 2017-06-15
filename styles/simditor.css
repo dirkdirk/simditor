@@ -229,7 +229,7 @@
   cursor: col-resize;
 }
 .simditor .simditor-body pre {
-  /*min-height: 28px; Dirk edited  Dirk edited */
+  /*min-height: 28px;*/
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   word-wrap: break-word !important;
